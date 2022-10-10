@@ -220,3 +220,36 @@ button {
   margin: 60px auto 0 auto;
   border-radius: 25px;
 }
+
+.backstage-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+
+  color: #333b41;
+}
+
+.backstage-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #333b41;
+}
+
+.undertitle {
+  margin-top: 34px;
+}
+
+.backstage-subtitle {
+  margin-top: 54px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+
+  color: #333b41;
+}
+
+.undersubtitle {
+  margin-top: 34px;
+}
