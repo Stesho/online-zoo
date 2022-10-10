@@ -137,3 +137,86 @@ button {
 .header__burger{
   display: none;
 }
+
+.panda {
+  height: 780px;
+  background-image: url(./assets/background/panda_bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panda-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  max-width: var(--max-width);
+  height: 100%;
+  margin: auto;
+}
+
+.panda-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.panda-title {
+  max-width: 500px;
+  height: 400px;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  color: white;
+
+  padding: 6px 0;
+  z-index: 2;
+}
+
+.text-favorite {
+  color: #ffee2e;
+}
+
+.orange-button {
+  width: 298px;
+  height: 54px;
+
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+
+  text-transform: uppercase;
+  transition: 300ms;
+}
+
+.orange-button:active {
+  transform: scale(0.9);
+}
+
+.orange-button:hover {
+  opacity: 0.8;
+}
+
+.panda-circle {
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 100%;
+  z-index: 1;
+  top: -12px;
+  left: -73px;
+}
+
+.panda-button {
+  margin: 60px auto 0 auto;
+  border-radius: 25px;
+}
