@@ -253,3 +253,292 @@ button {
 .undersubtitle {
   margin-top: 34px;
 }
+
+.pets {
+  position: relative;
+  padding-top: 40px;
+}
+
+.pets-container {
+ 
+  max-width: 1160px;
+  margin: auto;
+  height: 872px;
+}
+
+.pets-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 426px);
+  column-gap: 30px;
+  row-gap: 20px;
+  justify-content: center
+}
+
+.pet-item {
+  max-width: 366px;
+  max-height: 366px;
+  border-radius: 5px;
+  border: 1px solid #fa6f32;
+  transition: 200ms;
+}
+
+.pet-item:hover {
+  max-height: 426px;
+}
+
+.pet-image {
+  max-width: 344px;
+  max-height: 344px;
+  margin: 10px 10px;
+  border-radius: 5px 5px 0 0;
+  transition: 300ms;
+}
+
+/* .pet-item:hover .pet-image {
+  max-width: 364px;
+  max-height: 364px;
+  margin: 0;
+} */
+
+.pet-info {
+  position: relative;
+  height: 0;
+  padding-left: 16px;
+  overflow: hidden;
+  transition: 200ms;
+}
+
+.pet-item:hover .pet-info {
+  height: 60px;
+  padding-top: 6px;
+}
+
+.pet-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: black;
+}
+
+.pet-location {
+  margin-top: -2px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: black;
+}
+
+.pet-icon-food {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+}
+
+.pet-image-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.pet-image-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.pets-choose-button {
+  display: block;
+  margin: 80px auto;
+  letter-spacing: -1px;
+  border-radius: 25px;
+}
+
+.pets-buttons{
+  display: flex;
+  position: absolute;
+  margin: -70px;
+  width: 1300px;
+  top: calc(50% - 64px - 25px);
+  justify-content: space-between;
+}
+
+.pets-button {
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  background-color: #f9804b;
+  transition: 200ms;
+  /* top: calc(50% - 31px); */
+}
+
+.pets-button:hover {
+  background-color: #9b2e00;
+}
+
+.pets-button:active {
+  transform: scale(0.9);
+  background-color: green;
+}
+
+.pets-button-left {
+  left: -82px;
+}
+
+.pets-button-right {
+  right: -82px;
+}
+
+.pick {
+  padding: 69px 0 100px 0;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+}
+
+.pick-container {
+  margin: 0 220px;
+  padding: 41px 10px 59px 99px;
+  background: rgba(253, 253, 255, 0.52);
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.pick-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.pick-block1{
+  max-height: max-content;
+}
+.pick-block2{
+ margin-top: 60px;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.pick-title{
+  font-weight: 400;
+  line-height: 58px;
+  color: #FE9013;
+  font-size: 48px;
+  text-align: center;
+}
+
+.pick-subtitle{
+  /* width: 850px;
+  height: 29px; */
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #333B41;
+}
+
+.pick-pretext{
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333B41;
+}
+
+.pick-text{
+  margin-top: 10px;
+  /* margin-bottom: 60px; */
+
+  /* width: 863px;
+  height: 42px; */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333B41;
+}
+
+
+.pick-works-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  width: 764px;
+  height: 244px;
+  margin-top: 40px;
+}
+
+
+
+
+.pick-works-wrapper>img{
+  width: 69px;
+  height: 35.08px;
+  margin: 64.5px 31px 0 30px
+}
+
+
+.pick-item-image{
+
+  width: 168px;
+  height: 168px;
+  background: #FFFFFF;
+  border: 1px solid orange ;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.pick-icon1{
+  margin: 54px 30px;
+}
+
+.pick-icon2{
+  height:95px;
+  width: 85.77px;
+  margin: 38px 41px 35px 41.23px;
+}
+
+.pick-icon3{
+  
+  margin: 48px 21.25px 48.4px 22px; 
+}
+
+.pick-item-description{
+
+  margin-top: 30px;
+}
+
+.pick-works-title{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #333B41;
+}
+
+.pick-choose-button{
+  border-radius: 25px;
+}
