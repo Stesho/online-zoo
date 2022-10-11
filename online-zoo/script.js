@@ -1,5 +1,3 @@
-alert('Привет, немного не успеваю. Буду очень благодарен, если сможете проверить позже');
-
 const BURGER = document.querySelector(".burger_button")
 const NAVBURGER = document.querySelector(".nav__burger")
 const SPAN = document.querySelector(".span")
